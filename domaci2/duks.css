@@ -1,0 +1,56 @@
+html{
+	width:1000px;
+	
+}
+
+#naslov{
+	text-align:center;
+	border-bottom:1px solid black;
+	font-family:'Slabo 27px' , serif;
+}
+#crta{
+	width:1000px;
+	height:600px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom:1px solid black;
+}
+#tekst{
+	
+	width: 490px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    padding: 10px;
+    font-size:20px;
+    font-family:'Slabo 27px' , serif;
+}
+img{
+	width:350px
+}
+#slika{
+	position:absolute;
+	left:600px;
+	top:150px;
+}
+
+#tabla{
+	position:absolute;
+	top:700px;
+	left:300px;
+	padding:5px;
+	border-collapse: collapse;
+	margin-bottom:20px;
+	margin-top:10px;
+	font-family:'Slabo 27px' , serif;
+}
+td,th{
+	padding:10px;
+}
+tr:nth-child(even){
+	background-color:#f2f2f2;
+}
+caption{
+	text-align: left;
+}
